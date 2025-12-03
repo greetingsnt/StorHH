@@ -10,7 +10,7 @@ from aiogram.types import CallbackQuery
 import re
 
 # Инициализация бота и диспетчера
-bot = Bot(token="")
+bot = Bot(token=" ")
 dp = Dispatcher()
 
 # Списки данных по категориям
@@ -1322,4 +1322,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
+
     asyncio.run(main())
